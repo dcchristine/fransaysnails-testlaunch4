@@ -1,0 +1,1342 @@
+/* GENERAL CSS STYLING */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.backtotop{
+    position: fixed;
+    background-image: url(../images/scrolltop.png);
+    background-repeat: no-repeat;
+    height: 8%;
+    right: 0.6%;
+    font-size: 1em;
+    color: #3d1429;
+    top: 89%;
+    width: 4%;
+    outline: auto #3D1429;
+    box-shadow: 5px 5px 20px  #26002b;
+
+}
+
+.backtotop:hover{
+   box-shadow: 10px 10px 60px  #e3b2b5;
+}
+
+
+.headings{
+    font-size: 120px;
+    padding-bottom: 10px;
+}
+.subheadings {
+    font-size: 40px;
+}
+
+.horizontal{
+    width: 100%;
+    height: 2px;
+    position: relative;
+    margin: 5px;
+    background-color: #ffffff;
+}
+
+.descriptions {
+
+
+  color:beige;
+  font-size: 20px;
+}
+
+/* OVERALL CLASS CSS WEBSITE LAYOUT */
+
+
+.mainbackground{
+    width: 100%;
+    height: 100% ;
+    position: absolute;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(89, 8, 69, 0.086),rgba(97, 11, 109, 0.282)),url(../images/background.jpg);
+   
+}
+
+.bgno2 img{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 135%;
+    position: absolute;
+    top: 400%;
+    background: linear-gradient(rgba(89, 8, 69, 0.086),rgba(97, 11, 109, 0.282));
+}
+
+.logo{
+    height: 50px;
+    right: 10px;
+    box-shadow: 5px 2px 20px  #26002b;
+}
+
+.navibar{
+    position: fixed;
+    left: 0.6%;
+    width: 96%;
+    background-color: rgba(87, 27, 83, 0.625) ;
+    margin: auto;
+    padding: 20px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 20px  #26002b;
+}
+
+.navibar hr{
+    width: 25%;
+    height: 1%;
+    left: 10px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.navibar li{
+    outline: auto;
+    box-shadow: 2px 2px 20px  #26002b;
+    
+}
+
+.navibar ul li{
+    
+    list-style: none;
+    size: 20px;
+    display: inline-block; 
+    margin: 0 10px;
+    padding: 2px 25px;
+    position: relative;
+}
+
+.navibar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+
+.navibar ul li a::after{
+    content: '';
+    height: 28px;
+    width: 0;
+    background:#e381c95b;
+    box-shadow: 5px 5px 20px  #e381c95b;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+.navibar ul li a:hover::after{
+    width: 100%;
+}
+
+.footerhome{
+    position: absolute;
+    top: 160em;
+    left: 0%;
+    height: 10%;
+    text-align: center;
+    display:flexbox;
+    width: 100%;
+    color: #e3b2b5;
+    background-color:#442340;
+    box-shadow: 5px 5px 20px  #26002b;
+    display: flex;
+    align-items: center;
+}
+
+.footerhome p{
+    font-size: 30px;
+    top: 20%;
+}
+
+.content{
+    text-align: center;
+    margin: 15% 1%;
+    color:#3D1429;
+    font-size: 20px;
+    
+}
+/* HOMEPAGE CSS WEBSITE LAYOUT*/
+
+.welcomemsg{
+    outline: #e6bfdc auto;
+    position: absolute;
+    text-align: center;
+    top: 10em;
+    padding: 1em 2%;
+    left: 2%;
+    color:#3D1429;
+    font-size: 20px;
+}
+
+.bgno3{
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    top: 240%;
+    opacity: 5;
+}
+
+.colorbg{
+    background-color:#c594b0cd;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    top:100%;
+    height: 1900px;
+}
+
+.benefitlist{
+    background-color: #3D1429;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 14.5%;
+    height: 45rem;
+    width:71%;
+    outline: #3D1429 auto;
+    outline-style: dotted;
+    box-shadow: 10px 10px 20px  #26002b;
+}
+
+.benefitlist img{
+    position: absolute;
+    top: 48%;
+    left: 0;
+    height: 52%;
+    width:100%;
+}
+
+.benefitlist h3{
+    color: #3D1429;
+    text-align: right;
+    position: absolute;
+    top: 60%;
+    right: 2%;
+    font-size: 5em;
+}
+
+.benefitlistsubs{
+    color: #3D1429;
+    text-align: right;
+    position: absolute;
+    top: 90%;
+    left: 34%;
+    font-size: 1em;
+}
+
+.benefit1{
+    background-color: #e3b2b5;    ;
+    color: #3D1429;
+    font-size: 20px;
+    text-align: justify;
+    height:30%;
+    width: 30%;
+    padding-top: 10%;
+    margin: 10px 0 5px 20px;
+}
+
+.benefit1 p{
+    text-align: center;
+    font-size: 40px;
+}
+
+.benefit1 span{
+    position: absolute;
+    margin: 1% 3%;
+    width: 25%;
+    color: #442340;
+}
+
+
+.benefit2{
+    background-color:#e7cdcd;
+    color: #442340;
+    position: absolute;
+    font-size: 20px;
+    height:30%;
+    width: 30%;
+    text-align: center;
+    padding-top: 9.5%;
+    top: 12px;
+    left:34.8%;
+}
+
+.benefit2 p{
+    text-align: center;
+    font-size: 40px;
+}
+
+.benefit2 span{
+    position: absolute;
+    margin: 5% 3%;
+    width: 80%;
+    color: #442340;
+    left: 9%;
+    text-align: justify;
+}
+
+.benefit3{
+    background-color:#f4e8e8;
+    color: #442340;
+    position: absolute;
+    font-size: 20px;
+    height:30%;
+    width: 30%;
+    text-align: center;
+    padding-top: 9.5%;
+    top: 13px;
+    left:68%;
+}
+
+.benefit3 p{
+    text-align: center;
+    font-size: 40px;
+}
+
+.benefit3 span{
+    position: absolute;
+    margin: 5% 3%;
+    width: 80%;
+    color: #442340;
+    left: 9%;
+    text-align: justify;
+}
+
+.dummyrating{
+    color: #3d1429;
+}
+
+.dummyrating1{
+    position: absolute;
+    text-align: justify;
+    top:108em;
+    left: 1%;
+    height: 30%;
+    width: 75%;
+    box-shadow: 3px 3px 20px  #26002b;
+}
+
+.dummyrating1 p{
+    color: white;
+    font-size: 3em;
+    padding:2% 2% 0 2%;
+}
+
+.dummyrating1 span{
+    position: absolute;
+    left: 80%;
+    top: 70%;
+    font-size: 2em;
+}
+
+.dummyrating2{
+    text-align: justify;
+    position: absolute;
+    top:125em;
+    left: 10%;
+    height: 30%;
+    width: 75%;
+    box-shadow: 3px 3px 20px  #26002b;
+}
+
+.dummyrating2 p{
+    color: white;
+    font-size: 3em;
+    padding:2% 2% 0 2%;
+    text-align: center;
+}
+
+.dummyrating2 span{
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    font-size: 2em;
+}
+
+.dummyrating3{
+    text-align: justify;
+    position: absolute;
+    top:141.5em;
+    width: 75%;
+    left: 24%;
+    height: 30%;
+    box-shadow: 3px 3px 20px  #26002b;
+}
+
+.dummyrating3 p{
+    text-align: right;
+    color: white;
+    font-size: 3em;
+    padding:2% 4% 0 2%;
+}
+
+.dummyrating3 span{
+    position: absolute;
+    left: 12%;
+    font-size: 2em;
+    top: 70%;
+}
+
+
+
+/* PRODUCTS PAGE CSS WEBSITE LAYOUT */
+
+.productspage{
+    text-align: center;
+    margin: 15% 3%;
+    color:#3D1429;
+    font-size: 20px;
+}
+
+.productspage h4 {
+    background-color: whitesmoke;
+    color:#442340; 
+    font-size: 30px;
+    opacity: 0.5;
+    width: 75%;
+    position: absolute;
+    left:13%;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 3%;
+    margin-bottom: 20px;
+}
+
+
+.products span{
+    color: #442340;
+    font-size: 10px;
+    opacity: 0.4;
+    position: absolute;
+    left:0%;
+    text-align: justify;
+}
+
+.productnavigation{
+    display: flex;
+    position: relative;
+    margin: 3% 0% 28% 15%;
+    padding: 1em 6em 0em 6em;
+}
+
+.productnavigation span{
+    padding: 0em 3em 0em 3em;
+}
+
+.productnavigation a{
+    text-decoration: none;
+    color: #3D1429;
+}
+
+.productnavigation a:hover{
+
+    background-color: #ff98cd75;
+    padding: 0.5rem;
+    transition-duration: 0.5s;
+    font-size: 2em;
+}
+
+.nailcolorlacquer{
+    background-color: #3D1429;
+    color:beige;
+    left: 12%;
+    position: absolute;
+    height: 110%;
+    width: 75%;
+    padding: 40px 15px 0px 5px;
+    border-radius: 0.5em;
+    outline: auto rgba(245, 245, 220, 0.674);
+    box-shadow: 10px 10px 20px  #26002b;
+}
+
+.product1{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(252, 245, 237);
+    position:relative;
+    left: 3%;
+    color: beige;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px #26002b inset;
+
+}
+
+.product1:hover{
+    height: 300px;
+    width: 250px;
+    background-color: rgba(252, 245, 237, 0.471);
+    position:relative;
+    left: 3%;
+    color: rgb(245, 245, 220);
+
+}
+
+.product1 img {
+    position: absolute;
+    background-color: none;
+    right: 2%;
+    height: 100%;
+    width: 100%;
+
+}
+
+.product1 p {
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 40px;
+    background-color: #3d1429df;
+    color:beige;
+    height: fit-content;
+ 
+}
+
+.product2{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(252, 245, 237);
+    position:absolute;
+    left: 27%;
+    color: beige;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #26002b inset;
+
+}
+
+.product2:hover{
+    height: 300px;
+    width: 250px;
+    background-color: rgba(252, 245, 237, 0.471);
+    position:absolute;
+    left: 27%;
+    color: beige;
+
+}
+
+.product2 img {
+   
+    position: absolute;
+    background-color: none;
+    right: 2%;
+    height: 100%;
+    width: 100%;
+   
+}
+
+.product2 p {
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 40px;
+    background-color: #3d1429df;
+    color:beige;
+    height: fit-content;
+ 
+}
+
+.product3{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(252, 245, 237);
+    position:absolute;
+    left: 51%;
+    color: beige;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px #26002b inset;
+
+}
+
+.product3:hover{
+    height: 300px;
+    width: 250px;
+    background-color: rgba(252, 245, 237, 0.471);
+    position:absolute;
+    left: 51%;
+    color: beige;
+    
+
+}
+
+.product3 img {
+   
+    position: absolute;
+    background-color: none;
+    left: 8%;
+    height: 100%;
+    width: 100%;
+}
+
+.product3 p {
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 40px;
+    background-color: #3d1429df;
+    color:beige;
+    height: fit-content;
+ 
+}
+
+.product4{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(252, 245, 237);
+    position:absolute;
+    left: 75%;
+    color: beige;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px #26002b inset;
+
+}
+
+.product4:hover{
+    height: 300px;
+    width: 250px;
+    background-color: rgba(252, 245, 237, 0.471);
+    position:absolute;
+    left: 75%;
+    color: beige;
+
+}
+
+.product4 img {
+   
+    position: absolute;
+    background-color: none;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.product4 p {
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 40px;
+    background-color: #3d1429df;
+    color:beige;
+    height: fit-content;
+ 
+}
+
+.nailcaretools{
+    background-color: #e6bfdc   ;
+    color: #3D1429;
+    left: 12%;
+    top:95em;
+    position: absolute;
+    height: 105%;
+    width: 75%;
+    padding: 50px 15px 0px 0px;
+    border-radius: 0.5em;
+    outline: auto #3D1429;
+    box-shadow: 10px 10px 20px  #26002b;
+}
+
+.pexelimg1 img{
+    height: 39em;
+    width: 22%;
+    background: linear-gradient(rgba(89, 8, 69, 0.086),rgba(97, 11, 109, 0.282)),;
+    background-color: rgb(252, 245, 237);
+    top: 0.2%;
+    position:absolute;
+    color: beige;
+    border-radius: 0.3em;
+ 
+}
+
+.liquidbundle{
+    height: 29em;
+    width: 25%;
+    background-color: #3D1429;
+    left: 13em;
+    top: 10em;
+    position:absolute;
+    color: beige;
+   
+}
+
+.liquidbundle img{
+    height: 18em;
+    margin-top: 3em;
+    left: 1em;
+    padding: 0;
+}
+
+.liquidbundle p{
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 5px;
+    padding: 20em 0em 1.3em 0em;
+    background-color:none;
+    color:beige;
+    height: fit-content;
+    outline: auto beige;
+   
+
+}
+
+.toolset{
+    height: 30em;
+    width: 25%;
+    background-color: #3D1429;
+    left: 28em;
+    top: 6em;
+    position:absolute;
+    color: beige;
+   
+}
+
+.toolset img{
+    height: 14em;
+    margin-top: 3em;
+    left: 1em;
+    margin-top: 6em;
+}
+
+.toolset p{
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 5px;
+    padding: 20em 0em 2.3em 0em;
+    background-color:none;
+    color:beige;
+    height: fit-content;
+    outline: auto beige;
+
+}
+
+.bundle{
+    height: 29em;
+    width: 25%;
+    background-color: #3D1429;
+    left: 43em;
+    top: 10em;
+    position:absolute;
+    color: beige;
+}
+
+.bundle img{
+    height: 18em;
+    margin-top: 3em;
+    left: 1em;
+    padding: 0;
+}
+
+.bundle p{
+    left: 2%;
+    width: 95%;
+    position: absolute;
+    top: 5px;
+    padding: 18.7em 0em 1.3em 0em;
+    background-color:none;
+    color:beige;
+    height: fit-content;
+    outline: auto beige;
+
+}
+
+.nailartneeds{
+    background-color: #3d1429;
+    color: beige;
+    left: 12%;
+    top:150em;
+    position: absolute;
+    height: 105%;
+    width: 75%;
+    padding: 50px 15px 0px 0px;
+    border-radius: 0.5em;
+    outline: auto beige;
+    box-shadow: 10px 10px 20px  #26002b;
+}
+
+.nailartneeds span{
+    color: #ffdcdc;
+    position: absolute;
+    width: 50%;
+    margin: 20% 0 0 65%;
+    font-size: 15px;
+    opacity: 3;
+}
+
+.dottingtool{
+    height: 10em;
+    width: 20em;
+    background: none;
+    left: 2em;
+    top: 6em;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.dottingtool img{
+    height: 10em;
+    width: 10em;
+    background: beige;
+    left: 2%;
+    top: 1px;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+    box-shadow: 20px 20px 30px  #1b011a;
+
+}
+
+.dottingtool p{
+    font-size: 1.1em;
+    width: 65%;
+    margin: 2% 0 0 55%;
+    position: absolute;
+    color:beige;
+}
+
+.nailpolishpencorrector{
+    height: 10em;
+    width: 20em;
+    background: none;
+    left: 2em;
+    top: 17.3em;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.nailpolishpencorrector img{
+    height: 10em;
+    width: 10em;
+    background: beige;
+    left: 2%;
+    top: 1px;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+    box-shadow: 20px 20px 30px  #1b011a;
+}
+
+.nailpolishpencorrector p{
+    width: 65%;
+    font-size: 1.1em;
+    margin: 2% 0 0 55%;
+    position: absolute;
+    color:beige;
+}
+
+
+.nailartstencil{
+    height: 10em;
+    width: 20em;
+    background: none;
+    left: 2em;
+    top: 28.5em;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.nailartstencil img{
+    height: 10em;
+    width: 10em;
+    background: beige;
+    left: 2%;
+    top: 1px;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+    box-shadow: 20px 20px 30px  #1b011a;
+}
+
+.nailartstencil p{
+    width: 65%;
+    font-size: 1.1em;
+    margin: 2% 0 0 55%;
+    position: absolute;
+    color:beige;
+}
+
+
+.nailartbrush{
+    height: 10em;
+    width: 20em;
+    background: none;
+    right: 8em;
+    top: 28.5em;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.nailartbrush img{
+    height: 10em;
+    width: 10em;
+    background: beige;
+    left: 0%;
+    top: 1px;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+    box-shadow: 20px 20px 30px  #1b011a;
+}
+
+.nailartbrush p{
+    width: 65%;
+    font-size: 1.1em;
+    margin: 2% 0 0 55%;
+    position: absolute;
+    color:beige;
+}
+
+.nailartstamper{
+    height: 10em;
+    width: 20em;
+    background: none;
+    right: 8em;
+    top: 17.3em;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.nailartstamper img{
+    height: 10em;
+    width: 10em;
+    background: beige;
+    left: 2%;
+    top: 1px;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+    box-shadow: 20px 20px 30px  #1b011a;
+}
+
+.nailartstamper p{
+    width: 65%;
+    font-size: 1.1em;
+    margin: 2% 0 0 55%;
+    position: absolute;
+    color:beige;
+}
+
+.glittersandsequins{
+    height: 10em;
+    width: 20em;
+    background: none;
+    right: 8em;
+    top: 6em;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+
+}
+
+.glittersandsequins img{
+    height: 10em;
+    width: 10em;
+    background: beige;
+    left: 2%;
+    top: 1px;
+    position:absolute;
+    color: beige;
+    border-radius: 3em;
+    box-shadow: 20px 20px 30px  #1b011a;
+}
+
+.glittersandsequins p{
+    font-size: 1.1em;
+    width: 65%;
+    margin: 2% 0 0 55%;
+    position: absolute;
+    color:beige;
+}
+
+/* SERVICES CSS WEBSITE LAYOUT */
+
+.servicespage{
+    color:#3D1429;
+    font-size: 20px;
+}
+
+.servicespage h1{
+    font-size: 250px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+.servicespage h4 {
+    background-color: whitesmoke;
+    padding-right: 2%;
+    text-align: right;
+    color:#442340; 
+    font-size: 30px;
+    opacity: 0.6;
+    width: 60%;
+    position: absolute;
+    left:6%;
+    top: 93%;
+}
+
+.manicurejump{
+    position: absolute;
+    top: 18%;
+    left: 6%;
+    text-align: center;
+}
+
+.manicurejump img{
+    height: 250px;
+    width: 425px;
+    outline: auto whitesmoke;
+    box-shadow: 10px 10px 20px  #26002b;
+}
+
+.manicurejump p{
+    position: inherit;
+    color: whitesmoke;
+    top: 40% ;
+    font-size: 50px;
+    background:#3d1429a8;
+    width: 100%;
+    
+}
+
+.pedicurejump{
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    text-align: center;
+}
+
+.pedicurejump img{
+    height: 255px;
+    width: 425px;
+    outline: auto whitesmoke;
+    box-shadow: 10px 10px 20px  #26002b;
+}
+
+.pedicurejump p{
+    position: inherit;
+    color: whitesmoke;
+    top: 40% ;
+    font-size: 50px;
+    background:#3d1429a8;
+    width: 100%;
+    
+}
+
+.nailartjump{
+    position: absolute;
+    top: 18%;
+    left: 69%;
+    text-align: center;
+}
+
+.nailartjump img{
+    height: 500px;
+    outline: auto whitesmoke;
+    box-shadow: 10px 10px 20px  #26002b;
+}
+
+.nailartjump p{
+    position: inherit;
+    color: whitesmoke;
+    top: 40% ;
+    font-size: 50px;
+    background:#3d1429a8;
+    width: 100%;
+    
+}
+
+.servicesnavigation .nailartjump:hover{
+    background-color: #3d1429;
+    height: 50px;
+    transition-duration: 0.2s;
+}
+
+.servicesnavigation .manicurejump:hover{
+    background-color: #3d1429;
+    height: 50px;
+    transition-duration: 0.2s;
+}
+
+.servicesnavigation .pedicurejump:hover{
+    background-color: #3d1429;
+    height: 50px;
+    transition-duration: 0.2s;
+}
+
+.manicure{
+    height: 100%;
+    position: absolute;
+    top: 120%;
+    left:2%; 
+    border-radius: 3px;
+}
+
+.manicure img{
+    height: 80%;
+    box-shadow: 10px 10px 30px  #26002b;
+    opacity: 0.95;
+    border-radius: 4px;
+}
+.manicure h3 {
+    background-color: #ffffff32;
+    position: absolute;
+    padding: 1%;
+    box-shadow: 10px 10px 30px  #26002b;
+    border-radius: 10px;
+    top:20%;
+    left: 103%;
+    color: #3D1429;
+    font-size: 100px;
+}
+
+.manicure span{
+    padding: 5% 1%;
+    background-color:whitesmoke;
+    position: absolute;
+    text-align: justify;
+    left: 105%;
+    color: #3D1429;
+    font-size: 20px;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.manicure p{
+    padding: 1%;
+    background-color:whitesmoke;
+    position: absolute;
+    text-align: justify;
+    top:2%;
+    right: 10%;
+    color: #3D1429;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.pedicure{
+    color: #3D1429;
+    height: 100%;
+    position: absolute;
+    top: 240%;
+    right:2%; 
+}
+
+.pedicure img{
+    height: 100%;
+    position: relative;
+    width: 100%;
+    box-shadow: 20px 20px 30px  #26002b;
+    opacity: 0.85;
+    border-radius: 4px;
+}
+
+.pedicure h3 {
+    background-color: #ffffff32;
+    position: absolute;
+    padding: 1%;
+    box-shadow: 10px 10px 30px  #26002b;
+    border-radius: 10px;
+    top:20%;
+    right: 103%;
+    color: #3D1429;
+    font-size: 100px;
+}
+
+.pedicure span{
+    padding: 5% 1%;
+    background-color:whitesmoke;
+    position: absolute;
+    text-align: justify;
+    right: 105%;
+    color: #3D1429;
+    font-size: 20px;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.pedicure p{
+    padding: 1%;
+    background-color:whitesmoke;
+    position: absolute;
+    text-align: justify;
+    top:2%;
+    left: 10%;
+    color: #3D1429;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.nailartbg{
+    position: absolute;
+    top: 367%;
+    height: 100%;
+    width: 96%;
+}
+
+.nailart {
+    top: 375%;
+    height: 100%;
+    width: 75%;
+    left: 7%;
+    color: #3d1429;
+    position: absolute;
+    background-image: url(./images/nailartbg.jpg);
+}
+
+.nailart h3{
+    background-color: #ffffff61;
+    padding: 2% 3%;
+    position: absolute;
+    height: 200%;
+    box-shadow: 10px 10px 30px  #26002b;
+    border-radius: 10px;
+    top:5%;
+    color: #3d1429;
+    font-size: 100px;
+}
+
+.nailartdesign1{
+    position: relative;
+    width: 100%;
+    top: 30%;
+    color: #442340;
+    left: 5%;
+    padding: 3%;
+
+}
+
+.nailartdesign1 p{
+        color: #3D1429;
+        position: relative;
+        width: 25%;
+        top: 50%;
+        left: 2%;
+        font-size: 20px;
+}
+
+.confettiglitter{
+    position: absolute;
+    height: 250px;
+    top: 35%;
+    left: 40%;
+    box-shadow: 10px 10px 30px  #26002b;
+    border-radius: 5px;
+
+}
+
+.nailartdesign2{
+    position: relative;
+    top: 30%;
+    color: #442340;
+    left: 5%;
+    padding: 3%;
+
+}
+
+.nailartdesign2 p{
+        color: #3D1429;
+        position: relative;
+        width: 25%;
+        top: 50%;
+        left: 2%;
+        font-size: 20px;
+}
+
+.embellishedNails{
+    position: absolute;
+    height: 250px;
+    width: 700px;
+    top: 78%;
+    left: 40%;
+    box-shadow: 10px 10px 30px  #26002b;
+    border-radius: 5px;
+
+}
+
+.nailartdesign3{
+    position: relative;
+    top: 30%;
+    color: #442340;
+    left: 5%;
+    padding: 3%;
+
+}
+
+.nailartdesign3 p{
+        color: #3D1429;
+        position: relative;
+        width: 25%;
+        top: 50%;
+        left: 2%;
+        font-size: 20px;
+}
+
+.chrome{
+    position: absolute;
+    height: 250px;
+    width: 700px;
+    top: 122%;
+    left: 40%;
+    box-shadow: 10px 10px 30px  #26002b;
+    border-radius: 5px;
+
+}
+
+.nailartdesign4{
+    position: relative;
+    top: 30%;
+    color: #442340;
+    left: 5%;
+    padding: 3%;
+
+}
+
+.nailartdesign4 p{
+        color: #3D1429;
+        position: relative;
+        width: 25%;
+        top: 50%;
+        left: 2%;
+        font-size: 20px;
+}
+
+.glazedDonut{
+    position: absolute;
+    height: 250px;
+    width: 700px;
+    top: 165%;
+    left: 40%;
+    box-shadow: 10px 10px 30px  #26002b;
+    border-radius: 5px;
+
+}
+
+/* AVAIL OUR OFFERS CSS WEBSITE LAYOUT */
+
+
+/* ABOUT US CSS WEBSITE LAYOUT */
